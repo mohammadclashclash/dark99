@@ -217,12 +217,19 @@ function create_config( )
     "get",
     "broadcast",
     "download_media",
-    "invite",
+    "autoleave",
+    "version",
+    "fosh",
+    "block",
+    "wiki",
+    "echo",
+    "feedback",
+    "linkpv",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {119626024,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {90312082},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v1
 An advance Administration bot based on yagop/telegram-bot 
@@ -244,111 +251,131 @@ Our channels
 @teleseedch [English]
 ]],
     help_text = [[
-Commands list :
+    
+📝 ليست دستورات :
 
 !kick [username|id]
-You can also do it by reply
+کيک کردن کاربر (حتي با ريپلي)
 
 !ban [ username|id]
-You can also do it by reply
+بن کردن کاربر (حتي با ريپلي)
 
 !unban [id]
-You can also do it by reply
+آن بن کردن کاربر (حتي با ريپلي)
 
 !who
-Members list
+دريافت ليست اعضا
 
 !modlist
-Moderators list
+دريافت ليست مديران
 
 !promote [username]
-Promote someone
+افزودن مدير
 
 !demote [username]
-Demote someone
+حذف کردن مدير
 
 !kickme
-Will kick user
+حذف خودتان از گروه
 
 !about
-Group description
+توضيحات گروه
 
 !setphoto
-Set and locks group photo
+انتخاب و قفل عکس گروه
 
 !setname [name]
-Set group name
+انتخاب نام گروه
 
 !rules
-Group rules
+قوانين گروه
 
 !id
-return group id or user id
+دريافت آي دي گروه يا کاربر
 
 !help
+راهنماي بات
 
 !lock [member|name|bots]
-Locks [member|name|bots] 
+قفل اعضا ، ربات و نام گروه
 
 !unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
+باز کردن قفل اعضا ، ربات و نام گروه
 
 !set rules <text>
-Set <text> as rules
+انتخاب قوانين گروه
 
 !set about <text>
-Set <text> as about
+انتخاب توضيحات گروه
 
 !settings
-Returns group settings
+دريافت تنظيمات گروه
 
 !newlink
-create/revoke your group link
+ساخت / تغيير لينک گروه
 
 !link
-returns group link
+دريافت لينک گروه
+
+!linkpv
+دريافت لينک گروه در خصوصی
 
 !owner
-returns group owner id
+دريافت آي دي مدير اصلي گروه
 
 !setowner [id]
-Will set id as owner
+انتخاب مدير اصلي گروه
 
 !setflood [value]
-Set [value] as flood sensitivity
+تغيير حساسيت ضد اسپم
 
 !stats
-Simple message statistics
+دريافت آمار در قالب متن
 
 !save [value] <text>
-Save <text> as [value]
+سيو کردن يک متن
 
 !get [value]
-Returns text of [value]
+دريافت متن سيو شده
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن قوانين ، مديران ، اعضا و ...
 
 !res [username]
-returns user id
+دريافت يوزر آي دي
 "!res @username"
 
 !log
-will return group logs
+دريافت گزارشات گروه
 
 !banlist
-will return group ban list
+دريافت ليست کاربران بن شده
 
-**U can use both "/" and "!" 
+!echo
+تکرار متن مورد نظر شما
+
+!wiki
+جستجو در ويکي پديا
+
+!wikifa
+جستجو در ويکي پديا فارسي
+
+!feedback
+ارتباط با پشتیبانی ربات
+
+!teledark
+توضيحات ضد اسپم
 
 
-*Only owner and mods can add bots in group
+⚠️  شما ميتوانيد از ! و / استفاده کنيد. 
 
+⚠️  تنها مديران ميتوانند ربات ادد کنند. 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+⚠️  تنها معاونان و مديران ميتوانند 
+جزييات مديريتي گروه را تغيير دهند. 
 
-*Only owner can use res,setowner,promote,demote and log commands
-
+ 🎄 TeℓeDαяк By @AmirDark 🎄
+ 
 ]]
 
   }
