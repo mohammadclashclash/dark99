@@ -231,55 +231,47 @@ function create_config( )
     disabled_channels = {},
     realm = {90312082},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
+    about_text = [[
+    
+    TeleDark Anti Spam Bot v2 
+  📢 Channel : @TeleDarkCh
+  👤 Admin : @AmirDark
+  🙏 Special Thanks :
+  @mehrab_wj
+  @PokerFace_Dev
+  
+  Checkout goo.gl/wQ6sGr
 ]],
     help_text = [[
     
-📝 ليست دستورات :
+    📝 لیست دستورات :
 
 !kick [username|id]
-کيک کردن کاربر (حتي با ريپلي)
+کیک کردن کاربر (حتی با ریپلی)
 
 !ban [ username|id]
-بن کردن کاربر (حتي با ريپلي)
+بن کردن کاربر (حتی با ریپلی)
 
 !unban [id]
-آن بن کردن کاربر (حتي با ريپلي)
+آن بن کردن کاربر (حتی با ریپلی)
 
 !who
-دريافت ليست اعضا
+دریافت لیست اعضا
 
 !modlist
-دريافت ليست مديران
+دریافت لیست مدیران
 
 !promote [username]
-افزودن مدير
+افزودن مدیر
 
 !demote [username]
-حذف کردن مدير
+حذف کردن مدیر
 
 !kickme
 حذف خودتان از گروه
 
 !about
-توضيحات گروه
+توضیحات گروه
 
 !setphoto
 انتخاب و قفل عکس گروه
@@ -288,13 +280,13 @@ Our channels
 انتخاب نام گروه
 
 !rules
-قوانين گروه
+قوانین گروه
 
 !id
-دريافت آي دي گروه يا کاربر
+دریافت آی دی گروه یا کاربر
 
 !help
-راهنماي بات
+راهنمای بات
 
 !lock [member|name|bots]
 قفل اعضا ، ربات و نام گروه
@@ -303,79 +295,71 @@ Our channels
 باز کردن قفل اعضا ، ربات و نام گروه
 
 !set rules <text>
-انتخاب قوانين گروه
+انتخاب قوانین گروه
 
 !set about <text>
-انتخاب توضيحات گروه
+انتخاب توضیحات گروه
 
 !settings
-دريافت تنظيمات گروه
+دریافت تنظیمات گروه
 
 !newlink
-ساخت / تغيير لينک گروه
+ساخت / تغییر لینک گروه
 
 !link
-دريافت لينک گروه
-
-!linkpv
-دريافت لينک گروه در خصوصی
+دریافت لینک گروه
 
 !owner
-دريافت آي دي مدير اصلي گروه
+دریافت آی دی مدیر اصلی گروه
 
 !setowner [id]
-انتخاب مدير اصلي گروه
+انتخاب مدیر اصلی گروه
 
 !setflood [value]
-تغيير حساسيت ضد اسپم
+تغییر حساسیت ضد اسپم
 
 !stats
-دريافت آمار در قالب متن
+دریافت آمار در قالب متن
 
 !save [value] <text>
-سيو کردن يک متن
+سیو کردن یک متن
 
 !get [value]
-دريافت متن سيو شده
+دریافت متن سیو شده
 
 !clean [modlist|rules|about]
-پاک کردن قوانين ، مديران ، اعضا و ...
+پاک کردن قوانین ، مدیران ، اعضا و ...
 
 !res [username]
-دريافت يوزر آي دي
+دریافت یوزر آی دی
 "!res @username"
 
 !log
-دريافت گزارشات گروه
+دریافت گزارشات گروه
 
 !banlist
-دريافت ليست کاربران بن شده
+دریافت لیست کاربران بن شده
 
 !echo
 تکرار متن مورد نظر شما
 
 !wiki
-جستجو در ويکي پديا
+جستجو در ویکی پدیا
 
 !wikifa
-جستجو در ويکي پديا فارسي
-
-!feedback
-ارتباط با پشتیبانی ربات
+جستجو در ویکی پدیا فارسی
 
 !teledark
-توضيحات ضد اسپم
+توضیحات ضد اسپم
 
 
-⚠️  شما ميتوانيد از ! و / استفاده کنيد. 
+⚠️ شما میتوانید از ! و / استفاده کنید. 
 
-⚠️  تنها مديران ميتوانند ربات ادد کنند. 
+⚠️ تنها مدیران میتوانند ربات ادد کنند. 
 
-⚠️  تنها معاونان و مديران ميتوانند 
-جزييات مديريتي گروه را تغيير دهند. 
+⚠️ تنها معاونان و مدیران میتوانند 
+جزییات مدیریتی گروه را تغییر دهند.
 
- 🎄 TeℓeDαяк By @AmirDark 🎄
- 
 ]]
 
   }
