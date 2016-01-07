@@ -224,7 +224,7 @@ function create_config( )
     "wiki",
     "echo",
     "feedback",
-    "linkpv",
+    "antispam",
     "all"
     },
     sudo_users = {119626024,0,tonumber(our_id)},--Sudo users
