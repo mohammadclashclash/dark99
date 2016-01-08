@@ -1,5 +1,5 @@
-# [TeleSeed](https://telegram.me/TeleSeed) 
-**An advance and powerful Administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under [GNU General public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**
+# [TeleDark](https://telegram.me/TeleDark) 
+**An advance and powerful Administration bot based on [TeleSeed](https://github.com/SEEDTEAM/TeleSeed) licensed under [GNU General public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**
 # Features
 
 * **A powerful Anti spam with custom sensitivity For each group**
@@ -25,7 +25,7 @@
 ### Group creation
 >/creategroup [group name]
 >
->>/creategroup SEED
+>>/creategroup DARK
 >>>will create a group
 >>>
 >>>_Only works in realms But sudo users can use it everywhere_
@@ -343,8 +343,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git
-cd TeleSeed
+git clone https://github.com/amdark77/TeleDark.git
+cd TeleDark
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -353,7 +353,7 @@ chmod +x launch.sh
 To install everything in one command on debian-based distros, use: (useful for VPS deployment)
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/SEEDTEAM/TeleSeed.git && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/amdark77/TeleDark.git && cd TeleDark && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 ### Realm configuration 
 
@@ -370,33 +370,10 @@ realm = {},--Realms Id
 ```
 then start the bot again
 
-
-# Support and development
-
-Do not contact **us** In private for support.
-Join our bot development group by sending `/join 56670147` to [@TeleSeed](https://telegram.me/TeleSeed)
-
-_If you are using /join service for first time you have to send it 11 time ( Bot is spam reported )_
-
-# Special thanks to
-[@seyedan25](https://telegram.me/seyedan25)
-
-For Managing [@teleseed](https://telegram.me/TeleSeed) on telegram
-
-[@Vamptacus](https://telegram.me/Vamptacus)
-
-For graphic designs
-
-[@topkecleon](https://github.com/topkecleon)
-
-[@JuanPotato](https://github.com/JuanPotato)
-
 # Our team !
 
-[Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
+[AmirDark](https://github.com/amdark77) ([Telegram](https://telegram.me/AmirDark))
 
-[I M /-\ N](https://github.com/imandaneshi) ([Telegram](https://telegram.me/imandaneshi))
+[<PokerFace/>](http://github.com/MojtabaMonfared) ([Telegram](https://telegram.me/PokerFace_Dev))
 
-[Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
-
-Our cahnnel > [@TeleSeedCH](https://telegram.me/teleseedch)
+Our cahnnel > [@TeleDarkCh](https://telegram.me/teledarkch)
