@@ -374,6 +374,6 @@ then start the bot again
 
 [AmirDark](https://github.com/amdark77) ([Telegram](https://telegram.me/AmirDark))
 
-[<PokerFace/>](http://github.com/MojtabaMonfared) ([Telegram](https://telegram.me/PokerFace_Dev))
+[PokerFace](http://github.com/MojtabaMonfared) ([Telegram](https://telegram.me/PokerFace_Dev))
 
 Our cahnnel > [@TeleDarkCh](https://telegram.me/teledarkch)
