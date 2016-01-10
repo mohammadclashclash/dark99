@@ -26,7 +26,7 @@ end
 
 return {
   patterns = {
-    "^[!/]block (user) (%d+)$",
+    "^[!/]block (%d+)$",
   },
   run = run,
 }
