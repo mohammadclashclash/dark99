@@ -3,7 +3,7 @@ local function block_user_callback(cb_extra, success, result)
   local receiver = cb_extra.receiver
   local user = 'user#id'..result.id
   if success == 0 then
-    return send_large_msg(receiver, "🚫 خطا در بلاک کردن کاربر")
+    return send_large_msg(receiver, "Block Process Failedًں”´آ´")
   end
   block_user(user, cb_ok, false)
 end
@@ -18,15 +18,19 @@ local function run(msg, matches)
       block_user(user, callback, false)
     end
 	        if not is_sudo(msg) or is_realm(msg) and is_admin(msg) then
-    return '⚠️ دسترسی فقط برای مدیران کل'
+    return 'BLOCK ONLY BY SUDO'
   end
-    return "⛔️ کاربر مورد نظر بلاک شد"
+    return "I Have Blocked User"
   end
 end
 
 return {
   patterns = {
-    "^[!/]block (%d+)$",
+    "^[!/]block (user) (%d+)$",
   },
   run = run,
 }
+--I'm Not Sure WoRks Or NOT!
+--IT HAS A BUG THAT EVERYONE CAN BLOCK USERS [EVERYONE]
+    --https://github.com/amdark77
+    --Telegram.me/AmirDark
