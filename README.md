@@ -56,8 +56,10 @@ then start the bot again
 
 # Our team !
 
-[AmirDark](https://github.com/amdark77) ([Telegram](https://telegram.me/AmirDark))
+[AmirDark](https://github.com/amirhmz) ([Telegram](https://telegram.me/AmirDark))
 
 [PokerFace](http://github.com/MojtabaMonfared) ([Telegram](https://telegram.me/PokerFace_Dev))
+
+[MR.Flat](http://github.com/telergybot) ([Telegram](https://telegram.me/mr_flat))
 
 Our cahnnel > [@TeleDarkCh](https://telegram.me/teledarkch)
