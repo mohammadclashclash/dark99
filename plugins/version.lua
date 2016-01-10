@@ -1,14 +1,17 @@
 do
 
 function run(msg, matches)
-  return 'TeleDark Anti Spam Bot v2'.. [[ 
+  return 'TeleDark Anti Spam Bot v2.1'.. [[ 
+
   📢 Channel : @TeleDarkCh
   👤 Admin : @AmirDark
+
   🙏 Special Thanks :
-  @mehrab_wj
-  @PokerFace_Dev
+
+        @mehrab_wj
+        @PokerFace_Dev
   
-  Checkout goo.gl/wQ6sGr
+  Checkout yon.ir/yNk0
 ]]
 end
 
