@@ -234,15 +234,17 @@ function create_config( )
     realm = {90312082},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-    
-    TeleDark Anti Spam Bot v2 
+    TeleDark Anti Spam Bot v2.1
+
   📢 Channel : @TeleDarkCh
   👤 Admin : @AmirDark
+
   🙏 Special Thanks :
-  @mehrab_wj
-  @PokerFace_Dev
+
+        @mehrab_wj
+        @PokerFace_Dev
   
-  Checkout goo.gl/wQ6sGr
+  Checkout yon.ir/yNk0
 ]],
     help_text = [[
     
