@@ -209,7 +209,7 @@ function create_config( )
     "inrealm",
     "ingroup",
     "inpm",
-    "banhammer",
+    banhammer
     "stats",
     "antispam",
     "antilink",
@@ -348,9 +348,6 @@ function create_config( )
 📢 ارتباط با پشتیبانی ربات
 !feedback
 
-💬 توضيحات ضد اسپم
-!teledark
-
 💬 راهنمای ربات (همین متن)
 !help
 
@@ -365,7 +362,7 @@ function create_config( )
 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 
-   👿 TeleDark By @AmirDark 👿
+   👿@mohammad20162015
    
 ]]
 
