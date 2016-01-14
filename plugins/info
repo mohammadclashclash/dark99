@@ -1,29 +1,43 @@
-do
-local function callback(extra, success, result)
-  vardump(success)
-  vardump(result)
-end
-
-local function run(msg, matches)
-  local user = matches[1]
-    user = string.gsub(user," ","_")
-	if msg.to.type == 'chat' then
-    local chat = ''
-    return user
-  else 
-    return 'Only work in group'
+.id) and matches[1] == 'chat' then
+        if matches[2] == 'pm' or matches[2] == 'txt' or matches[2] == 'pmtxt' then
+          chat_info(receiver, returnids, {msg=msg, matches=matches[2]})
+        else
+          chat_info(receiver, returnids, {msg=msg})
+        end
+      elseif is_mod(msg.from.id, msg.to.id) and string.match(matches[1], '^@.+$') then
+        chat_info(receiver, scan_name, {receiver=receiver, user=matches[1]})
+      elseif is_mod(msg.from.id, msg.to.id) and string.gsub(matches[1], ' ', '_') then
+        user = string.gsub(matches[1], ' ', '_')
+        chat_info(receiver, scan_name, {receiver=receiver, name=matches[1]})
+      end
+    else
+      return 'Info Only Works In Group'
+    end
   end
-end
 
-return {
-  description = "Users Information", 
-  usage = {
-    "/info (@user) : get id by username", },
-  patterns = {
-    "^[!/]info (.*)$",
-  }, 
-  run = run,
-  moderation = true 
-}
+  return {
+    description = 'Know your info or the info of a chat members.',
+    usage = {
+      user = {
+        '!info: Return your ID and the chat info if you are in one.'
+      },
+      moderator = {
+        '!info : Return ID of replied user if used by reply.',
+        '!info chat : Return the IDs of the current chat members.',
+        '!info chat txt : Return the IDs of the current chat members and send it as text file.',
+        '!info chat pm : Return the IDs of the current chat members and send it to PM.',
+        '!info chat pmtxt : Return the IDs of the current chat members, save it as text file and then send it to PM.',
+        '!info <id> : Return the IDs of the <id>.',
+        '!info @<user_name> : Return the member @<user_name> ID from the current chat.',
+        '!info <text> : Search for users with <text> on first_name, last_name, or print_name on current chat.'
+      },
+    },
+    patterns = {
+      "^[!/]info$",
+      "^[!/]info (chat) (.*)$",
+      "^[!/]info (.*)$"
+    },
+    run = run
+  }
 
 end
