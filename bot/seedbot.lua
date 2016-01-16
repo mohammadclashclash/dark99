@@ -331,8 +331,8 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
-    "inrealm",
+    Onservice",
+    Inrealm",
     "ingroup",
     "inpm",
     "banhammer",
@@ -342,8 +342,8 @@ function create_config( )
     "antilink",
     "owners",
     "arabic_lock",
-    "set",
-    "get",
+    Set",
+    Get",
     "broadcast",
     "download_media",
     "autoleave",
@@ -355,7 +355,7 @@ function create_config( )
     "feedback",
     "all"
     },
-    sudo_users = {150575718,104254582,0,tonumber(our_id)},--Sudo users
+    sudo_users = {150575718,104254582,179534974,141605513,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {90312082},--Realms Id
     moderation = {data = 'data/moderation.json'},
